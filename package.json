@@ -5,7 +5,10 @@
   "main": "index.js",
   "dependencies": {
     "crypto": "0.0.3",
+    "kerberos": "0.0.17",
     "moment": "^2.10.6",
+    "mongodb": "^2.0.49",
+    "mongodb-core": "^1.2.24",
     "underscore": "^1.8.3"
   },
   "devDependencies": {},
