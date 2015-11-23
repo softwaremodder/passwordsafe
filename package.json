@@ -1,0 +1,30 @@
+{
+  "name": "passwordsafe",
+  "version": "1.0.0",
+  "description": "A first attempt at open-source development of a password manager using Node.js",
+  "main": "index.js",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/softwaremodder/passwordsafe.git"
+  },
+  "keywords": [
+    "password",
+    "manager",
+    "encryption",
+    "node.js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/softwaremodder/passwordsafe/issues"
+  },
+  "homepage": "https://github.com/softwaremodder/passwordsafe#readme"
+}
