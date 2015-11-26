@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!--<script src="bower_components/angular/angular.min.js"></script>-->
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/aes.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="js/encrypt.js"></script>
+    <title>Test Crypto</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <label for="encryption_key">Type password here that will encrypt all text</label>
+            <input id="encryption_key" type="password">
+        </div>
+        <div class="row">
+            <label for="to_encrypt">Enter text to encrypt</label>
+            <textarea id="to_encrypt"></textarea>
+        </div>
+        <div class="row">
+            <button onclick="encode()" id="encrypt" class="btn-default">Show encrypted</button>
+        </div>
+    </div>
+</body>
+</html>

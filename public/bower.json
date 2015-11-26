@@ -1,0 +1,30 @@
+{
+  "name": "SoftwareModder",
+  "version": "0.0.0",
+  "homepage": "https://github.com/softwaremodder/passwordsafe",
+  "authors": [
+    "Mario Beauchamp <mario@lothus.ca>"
+  ],
+  "description": "Testing how to use client encryption without saving anything in the browser",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "encryption",
+    "javascript"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "angular": "~1.4.8",
+    "angular-bootstrap": "~0.14.3",
+    "crypto-js": "~3.1.5"
+  }
+}
