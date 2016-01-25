@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# checking if mongodb is installed
+if ! type mongo > /dev/null; then
+  echo "mongo database is not installed" 
+else
+  echo "mongodb is installed"
+  echo "Initializing the database......"
+  mongo < db_init.json
+fi
